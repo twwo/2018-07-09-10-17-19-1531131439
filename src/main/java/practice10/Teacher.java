@@ -1,12 +1,10 @@
 package practice10;
 
 import com.google.common.base.Joiner;
-import sun.font.TrueTypeFont;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
-import java.util.TreeMap;
 
 public class Teacher extends Person {
     private List<Klass> classes;
