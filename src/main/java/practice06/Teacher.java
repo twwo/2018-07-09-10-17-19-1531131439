@@ -26,7 +26,9 @@ public class Teacher extends Person {
         StringBuilder introResult = new StringBuilder();
         introResult.append(super.introduce());
         introResult.append(
-                (klass != null) ? " I am a Teacher. I teach Class " + klass + "." : " I am a Teacher. I teach No Class.");
+                (klass != null) ?
+                        " I am a Teacher. I teach Class " + klass + "." :
+                        " I am a Teacher. I teach No Class.");
         return introResult.toString();
     }
 }
