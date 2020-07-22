@@ -71,18 +71,17 @@ public class Teacher extends Person implements JoinListener, AssignedListener {
 
     @Override
     public void joinUpdate(Student student) {
-//        System.out.println("I am "
-//                + this.getName() +
-//                ". I know " + student.getName() +
-//                " has joined Class " +
-//                student.getKlass().getNumber() +
-//                ".");
-        System.out.println("I am Tom. I know Jerry has joined Class 2.\n");
+        System.out.print("I am "
+                + this.getName() +
+                ". I know " + student.getName() +
+                " has joined Class " +
+                student.getKlass().getNumber() +
+                ".\n");
     }
 
     @Override
     public void assignedUpdate(Student student) {
-        System.out.println("I am " +
+        System.out.print("I am " +
                 this.getName() +
                 ". I know " +
                 student.getName() +
